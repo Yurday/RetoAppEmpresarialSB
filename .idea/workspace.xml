@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14b56c55fa4ce22f7a3b0a055e95ae04279197e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f46247500ee65fae850de29da7180958b4be5e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/2041bfbf9845a3d46b7b1b14b24e6253f57951aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/546f668280c55c7c802d368df232b38e35e952bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65dbee302d6f49b5fc02ae14752e76cd2355e6e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d112d56c7718ff2bf803954d0ee8de18f7b8e30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd7904593705d2152c89662763c2cf0d3e4bbb07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf4310af38b939dc58e029d8f5c1d9e05453169c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0d74f58a4c4993b0c8c9afdaf93fc61de183c01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e93b0e0b86d68769074b4563eda724f28fa6f8ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ux248qAf53xRQM3sGMHhDUoW7l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoRESTful Reactive_control_function" />
+  </component>
+  <component name="RunManager" selected="JUnit.CreateUseCaseTest">
+    <configuration name="QuestionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.QuestionsApplication" />
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecases.CreateUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUseCaseTest.testCrearPregunta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecases.CreateUseCaseTest" />
+      <option name="METHOD_NAME" value="testCrearPregunta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListUseCaseTest.testListarPreguntas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecases.ListUseCaseTest" />
+      <option name="METHOD_NAME" value="testListarPreguntas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateUseCaseTest" />
+        <item itemvalue="JUnit.CreateUseCaseTest.testCrearPregunta" />
+        <item itemvalue="JUnit.ListUseCaseTest.testListarPreguntas" />
+        <item itemvalue="Application.QuestionsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="" />
+      <created>1625592727055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625592727055</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
