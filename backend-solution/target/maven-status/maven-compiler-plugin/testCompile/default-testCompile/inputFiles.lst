@@ -1,7 +1,13 @@
-/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/CreateUseCaseTest.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/ListUseCaseTest.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/DeleteUseCaseTest.java
-/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/AddAnswerUseCaseTest.java
-/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/UpdateUseCaseTest.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/QuestionsApplicationTests.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/GetUseCaseTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/router/ObtenerQuestionRouterTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/CreateUseCaseTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/router/BorrarQuestionRouterTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/router/AddAnswerRouterTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/router/ActualizarQuestionRouterTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/router/CrearQuestionRouterTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/AddAnswerUseCaseTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/usecases/UpdateUseCaseTest.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/test/java/co/com/sofka/questions/router/ListarQuestionsRouterTest.java

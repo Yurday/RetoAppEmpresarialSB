@@ -28,7 +28,8 @@ public class AnswerMapper {
              new AnswerDTO(
                     entity.getUserId(),
                     entity.getQuestionId(),
-                    entity.getAnswer()
+                    entity.getAnswer(),
+                     entity.getVote()
                      );
 
     }
