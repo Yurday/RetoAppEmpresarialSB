@@ -17,7 +17,7 @@ public class ObtenerQuestionRouter {
     @Bean
     public RouterFunction<ServerResponse> getById(UseCaseObtenerQuestion useCaseObtenerQuestion) {
         return route(
-                GET("/consultarquestion/{id}").and(accept(MediaType.APPLICATION_JSON)),
+                GET("/consultarpregunta/{id}").and(accept(MediaType.APPLICATION_JSON)),
                 request -> ServerResponse.ok()
                         .body(useCaseObtenerQuestion.obtenerPorId(request.pathVariable("id")), QuestionDTO.class)
         );
