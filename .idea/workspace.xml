@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="" />
+    <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoRESTful Reactive_control_function" />
@@ -77,12 +81,12 @@
       <module name="questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.*" />
+          <option name="PATTERN" value="co.com.sofka.questions.router.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.AddAnswerUseCaseTest" />
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.router" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.router.AddAnswerUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
