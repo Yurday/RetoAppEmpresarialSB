@@ -14,6 +14,4 @@ Xbackend-solution/src/main/java/co/com/sofka/questions/routerservice/AddAnswerRo
 
 Obackend-solution/src/main/java/co/com/sofka/questions/QuestionsApplication.java,a\f\af0b8585064ec58bac24c52eeba63b9b25cf6865
 Š
-Zbackend-solution/src/main/java/co/com/sofka/questions/usecaseservice/UseCaseAddAnswer.java,7\4\7481608e513d4427eb2335bd342a9aeb77a64db4
-Š
 Zbackend-solution/src/main/java/co/com/sofka/questions/routerscrud/CrearQuestionRouter.java,2\4\24393b2e3b8eca51aa7fe296e2caa95188e84655
