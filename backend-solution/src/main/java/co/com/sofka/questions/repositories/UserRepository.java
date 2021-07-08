@@ -1,10 +1,11 @@
 package co.com.sofka.questions.repositories;
 
-import co.com.sofka.questions.collections.User;
+import co.com.sofka.questions.collections.UserVote;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
-import reactor.core.publisher.Mono;
+import org.springframework.stereotype.Repository;
 
-public interface UserRepository extends ReactiveCrudRepository<User, String> {
+@Repository
+public interface UserRepository extends ReactiveCrudRepository<UserVote, String> {
 
 
 }

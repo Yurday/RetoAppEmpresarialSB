@@ -27,19 +27,19 @@ public class UseCasePlusVote {
         this.userMapper = userMapper;
     }
 
-    public Mono<AnswerDTO> plusPosition(String idAnswer, String idUser){
-        var user = userRepository.findById(idUser);
+    public Mono<AnswerDTO> plusPosition(String Answerid, String userId){
 
+        var user = userRepository.findById(userId);
         var userresp = user.flatMap(rs->{
-            rs.setVoto(true);
+            rs.getTipoVoto();
+            rs.setHabilitado(false);
+            rs.setTipoVoto(true);
             return  userRepository.save(rs);
         });
 
+        //var intencion=userresp.map(userMapper.fromUserVoteToUserVoteDTO());
 
-
-        var intento  = userresp.map(userMapper.fromUserToUserDTO());
-
-        var answer = answerRepository.findById(idAnswer);
+        var answer = answerRepository.findById(Answerid);
         var answerresp = answer.flatMap(rs ->{
                     rs.setVote(rs.getVote() +1);
 

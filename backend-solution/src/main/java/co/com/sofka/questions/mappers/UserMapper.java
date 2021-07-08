@@ -1,7 +1,7 @@
 package co.com.sofka.questions.mappers;
 
-import co.com.sofka.questions.collections.User;
-import co.com.sofka.questions.model.UserDTO;
+import co.com.sofka.questions.collections.UserVote;
+import co.com.sofka.questions.model.UserVoteDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.function.Function;
@@ -9,21 +9,24 @@ import java.util.function.Function;
 @Component
 public class UserMapper {
 
-    public Function<UserDTO, User> fromUserDtoToUser(String id){
+    public Function<UserVoteDTO, UserVote> fromUserVoteDtoToUserVote(String id){
         return updateUser->{
-            var user=new User();
+            var user=new UserVote();
             user.setId(id);
-            user.setVoto(updateUser.getVoto());
+            user.setHabilitado(updateUser.getHabilitado());
+            user.setTipoVoto(updateUser.getTipoVoto());
+            user.setAnswerId(updateUser.getAnswerId());
             return user;
         };
 
     }
-
-    public Function<User,UserDTO> fromUserToUserDTO(){
+    public Function<UserVote, UserVoteDTO> fromUserVoteToUserVoteDTO(){
         return entity->
-                new UserDTO(
+                new UserVoteDTO(
                         entity.getId(),
-                        entity.getVoto()
+                        entity.getHabilitado(),
+                        entity.getTipoVoto(),
+                        entity.getAnswerId()
                 );
 
     }

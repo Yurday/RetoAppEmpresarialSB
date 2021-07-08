@@ -19,10 +19,10 @@ public class PlusVoteRouter {
 
     @Bean
     public RouterFunction<ServerResponse> plusvote(UseCasePlusVote useCasePlusVote) {
-        return route( PUT("/sumarvoto/{idanswer}/{iduser}").and(accept(MediaType.APPLICATION_JSON)),
+        return route( PUT("/sumarvoto/{answerid}/{userid}").and(accept(MediaType.APPLICATION_JSON)),
                 request-> ServerResponse.ok()
                         .contentType(MediaType.APPLICATION_JSON)
-                        .body(useCasePlusVote.plusPosition(request.pathVariable("idanswer"),request.pathVariable("iduser")), AnswerDTO.class)
+                        .body(useCasePlusVote.plusPosition(request.pathVariable("answerid"),request.pathVariable("userid")), AnswerDTO.class)
         );
     }
 }
