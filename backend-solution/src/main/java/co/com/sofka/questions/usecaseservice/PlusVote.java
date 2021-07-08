@@ -7,13 +7,16 @@ import org.springframework.validation.annotation.Validated;
 
 @Service
 @Validated
-public class PlusPosition {
+public class PlusVote {
 
     private final AnswerRepository answerRepository;
     private final AnswerMapper answerMapper;
 
-    public PlusPosition(AnswerRepository answerRepository, AnswerMapper answerMapper) {
+    public PlusVote(AnswerRepository answerRepository, AnswerMapper answerMapper) {
         this.answerRepository = answerRepository;
         this.answerMapper = answerMapper;
     }
+
+
+
 }
