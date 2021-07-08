@@ -9,8 +9,6 @@ H
 ^backend-solution/src/test/java/co/com/sofka/questions/router/ActualizarQuestionRouterTest.java,1/3/13ff3bbc800e3e36618204a56e5b07abb8dc2a7b
 ã
 [backend-solution/src/main/java/co/com/sofka/questions/routerscrud/BorrarQuestionRouter.java,d/1/d1e4533b000eecf1c81d945cdc62c1c2cfa2e455
-ä
-Zbackend-solution/src/test/java/co/com/sofka/questions/router/BorrarQuestionRouterTest.java,c/d/cd404c9e87cc2ff5e06787afef4bea95cff8fd18
 Ñ
 Tbackend-solution/src/test/java/co/com/sofka/questions/QuestionsApplicationTests.java,8/2/824b8f59eb4637f1911d51257232695e06b4e96c
 å
@@ -22,8 +20,6 @@ Tbackend-solution/src/test/java/co/com/sofka/questions/QuestionsApplicationTests
 Qbackend-solution/src/main/java/co/com/sofka/questions/mappers/QuestionMapper.java,7/d/7d112d56c7718ff2bf803954d0ee8de18f7b8e30
 ç
 ]backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseObtenerQuestion.java,8/8/8817f35ca7008ae1d5401c53b4dc25445103d320
-ç
-]backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseListarQuestions.java,7/b/7b06cac33c832bcc8d6434c7735a56ca3c53efd6
 å
 \backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseBorrarQuestion.java,a/a/aabe8ed58015e7ac068f30c7abc3a0023085a6d5
 ê
@@ -40,8 +36,6 @@ Xbackend-solution/src/main/java/co/com/sofka/questions/repositories/AnswerReposi
 Xbackend-solution/src/main/java/co/com/sofka/questions/routerservice/AddAnswerRouter.java,2/6/260cd64c3af90b26cf35e25f9520bc91e10d1b90
 Ö
 Ubackend-solution/src/test/java/co/com/sofka/questions/usecases/UpdateUseCaseTest.java,8/b/8b4f64abc9c49780cee704fd2191e111c59273e9
-É
-Sbackend-solution/src/test/java/co/com/sofka/questions/usecases/ListUseCaseTest.java,e/0/e0d74f58a4c4993b0c8c9afdaf93fc61de183c01
 Ç
 Rbackend-solution/src/test/java/co/com/sofka/questions/usecases/GetUseCaseTest.java,e/0/e08be59564bdc83b813e7919b570470a32631cc8
 Ö
@@ -50,8 +44,6 @@ Ubackend-solution/src/test/java/co/com/sofka/questions/usecases/DeleteUseCaseTes
 Ubackend-solution/src/test/java/co/com/sofka/questions/usecases/CreateUseCaseTest.java,6/5/65dbee302d6f49b5fc02ae14752e76cd2355e6e2
 à
 Xbackend-solution/src/test/java/co/com/sofka/questions/usecases/AddAnswerUseCaseTest.java,1/4/14b56c55fa4ce22f7a3b0a055e95ae04279197e2
-Ö
-Ubackend-solution/src/test/java/co/com/sofka/questions/router/AddAnswerRouterTest.java,0/5/050202f596c2530a77823ac50eb1a06d246de374
 z
 Jbackend-solution/src/main/java/co/com/sofka/questions/model/AnswerDTO.java,1/f/1f46247500ee65fae850de29da7180958b4be5e8
 |
@@ -62,3 +54,13 @@ Obackend-solution/src/main/java/co/com/sofka/questions/mappers/AnswerMapper.java
 Obackend-solution/src/main/java/co/com/sofka/questions/collections/Question.java,c/d/cd7904593705d2152c89662763c2cf0d3e4bbb07
 }
 Mbackend-solution/src/main/java/co/com/sofka/questions/collections/Answer.java,e/9/e93b0e0b86d68769074b4563eda724f28fa6f8ab
+ä
+Zbackend-solution/src/main/java/co/com/sofka/questions/usecaseservice/UseCaseCrearUser.java,5/f/5fd4188479b8408b44df6a9bf10bbd1a3a4319fe
+á
+Wbackend-solution/src/main/java/co/com/sofka/questions/routerservice/PlusVoteRouter.java,d/5/d58a6572c3ff0f70e4055d14337071938cda80d6
+ä
+Zbackend-solution/src/main/java/co/com/sofka/questions/usecaseservice/UseCaseAddAnswer.java,7/4/7481608e513d4427eb2335bd342a9aeb77a64db4
+ã
+[backend-solution/src/main/java/co/com/sofka/questions/routerservice/CrearUsuarioRouter.java,b/c/bc76acf706316b8f1771a0d82b165a7c0a90931e
+x
+Hbackend-solution/src/main/java/co/com/sofka/questions/model/UserDTO.java,1/4/14500ec11ab07a5f150216df91d66e5a99b565e4

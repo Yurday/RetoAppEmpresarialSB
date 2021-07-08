@@ -30,14 +30,13 @@ public class UseCasePlusVote {
     public Mono<AnswerDTO> plusPosition(String idAnswer, String idUser){
         var user = userRepository.findById(idUser);
 
-        var userresp = user.flatMap(rs->{
-            rs.setVoto(true);
+        var userresp = user.map(rs->{
+
+
             return  userRepository.save(rs);
         });
 
 
-
-        var intento  = userresp.map(userMapper.fromUserToUserDTO());
 
         var answer = answerRepository.findById(idAnswer);
         var answerresp = answer.flatMap(rs ->{
