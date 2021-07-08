@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af0b8585064ec58bac24c52eeba63b9b25cf6865" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +52,20 @@
       <recent name="co.com.sofka.questions.router" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BorrarQuestionRouterTest">
+  <component name="RunManager" selected="Application.QuestionsApplication">
+    <configuration name="QuestionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.QuestionsApplication" />
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActualizarQuestionRouterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <extension name="coverage">
@@ -112,28 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.usecases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecases.UpdateUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuestionsApplication" />
         <item itemvalue="JUnit.BorrarQuestionRouterTest" />
         <item itemvalue="JUnit.AddAnswerUseCaseTest (1)" />
         <item itemvalue="JUnit.ActualizarQuestionRouterTest" />
         <item itemvalue="JUnit.AddAnswerUseCaseTest" />
-        <item itemvalue="JUnit.UpdateUseCaseTest" />
       </list>
     </recent_temporary>
   </component>

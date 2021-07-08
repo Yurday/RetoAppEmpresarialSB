@@ -1,7 +1,7 @@
 package co.com.sofka.questions.routerservice;
 
-import co.com.sofka.questions.model.UserDTO;
-import co.com.sofka.questions.usecaseservice.UseCaseCrearUser;
+import co.com.sofka.questions.model.UserVoteDTO;
+import co.com.sofka.questions.usecaseservice.UseCaseCrearUserVote;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
@@ -13,13 +13,13 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 
 @Configuration
-public class CrearUsuarioRouter {
+public class CrearUsuarioVotosRouter {
 
     @Bean
-    public RouterFunction<ServerResponse> crearUsuario(UseCaseCrearUser useCaseCrearUser) {
-        return route(POST("/crearusuario").and(accept(MediaType.APPLICATION_JSON)),//uso json
-                request -> request.bodyToMono(UserDTO.class)
-                        .flatMap(userDTO -> useCaseCrearUser.insertaruser(userDTO)
+    public RouterFunction<ServerResponse> crearUsuarioVotos(UseCaseCrearUserVote useCaseCrearUserVote) {
+        return route(POST("/crearusuariovotos").and(accept(MediaType.APPLICATION_JSON)),//uso json
+                request -> request.bodyToMono(UserVoteDTO.class)
+                        .flatMap(userVoteDTO -> useCaseCrearUserVote.insertarUserVote(userVoteDTO)
                                 .flatMap(result -> ServerResponse.ok()
                                         .contentType(MediaType.APPLICATION_JSON)//tipo respuesta texto plano o json
                                         .bodyValue(result))

@@ -3,6 +3,7 @@ package co.com.sofka.questions.usecaseservice;
 import co.com.sofka.questions.mappers.AnswerMapper;
 import co.com.sofka.questions.mappers.UserMapper;
 import co.com.sofka.questions.model.AnswerDTO;
+import co.com.sofka.questions.model.UserVoteDTO;
 import co.com.sofka.questions.repositories.AnswerRepository;
 import co.com.sofka.questions.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,26 +28,29 @@ public class UseCasePlusVote {
         this.userMapper = userMapper;
     }
 
-    public Mono<AnswerDTO> plusPosition(String idAnswer, String idUser){
-        var user = userRepository.findById(idUser);
-
-        var userresp = user.map(rs->{
+    public Mono<UserVoteDTO> plusPosition(String Answerid, String userId){
 
 
-            return  userRepository.save(rs);
+        return answerRepository.findById(Answerid).flatMap(rs ->{
+
+            rs.setVote(rs.getVote() +1);
+            return answerRepository.save(rs);
+        }).map(answerMapper.fromAnswerToAnswerDTO()).flatMap( us -> {
+
+            var userVote = new UserVoteDTO();
+            userVote.setAnswerId(Answerid);
+            userVote.setId(userId);
+            userVote.setHabilitado(false);
+            userVote.setTipoVoto(false);
+
+            return  userRepository.save(userMapper.fromUserVoteDtoToUserVote(null).apply(userVote)).map(userMapper.fromUserVoteToUserVoteDTO());
+
         });
 
 
 
-        var answer = answerRepository.findById(idAnswer);
-        var answerresp = answer.flatMap(rs ->{
-                    rs.setVote(rs.getVote() +1);
-
-            return answerRepository.save(rs);
-                });
-
-        return answerresp.map(answerMapper.fromAnswerToAnswerDTO());
-
     }
+
+
 
 }

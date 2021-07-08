@@ -1,8 +1,6 @@
 
 å
 \backend-solution/src/main/java/co/com/sofka/questions/routerscrud/ObtenerQuestionRouter.java,c\4\c48e416e9e4e5ef315af1f6cd14968381c61da26
-
-Obackend-solution/src/main/java/co/com/sofka/questions/QuestionsApplication.java,a\f\af0b8585064ec58bac24c52eeba63b9b25cf6865
 H
 backend-solution/pom.xml,7/d/7df4c8d8b2b75a89e32ebf611f7b735bec5377e5
 é
@@ -20,8 +18,6 @@ Tbackend-solution/src/test/java/co/com/sofka/questions/QuestionsApplicationTests
 Qbackend-solution/src/main/java/co/com/sofka/questions/mappers/QuestionMapper.java,7/d/7d112d56c7718ff2bf803954d0ee8de18f7b8e30
 ç
 ]backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseObtenerQuestion.java,8/8/8817f35ca7008ae1d5401c53b4dc25445103d320
-å
-\backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseBorrarQuestion.java,a/a/aabe8ed58015e7ac068f30c7abc3a0023085a6d5
 ê
 `backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseActualizarQuestion.java,4/6/469650c0226fd796df5c73756b631371607628f5
 è
@@ -48,8 +44,6 @@ z
 Jbackend-solution/src/main/java/co/com/sofka/questions/model/AnswerDTO.java,1/f/1f46247500ee65fae850de29da7180958b4be5e8
 |
 Lbackend-solution/src/main/java/co/com/sofka/questions/model/QuestionDTO.java,c/f/cf4310af38b939dc58e029d8f5c1d9e05453169c
-
-Obackend-solution/src/main/java/co/com/sofka/questions/mappers/AnswerMapper.java,2/0/2041bfbf9845a3d46b7b1b14b24e6253f57951aa
 
 Obackend-solution/src/main/java/co/com/sofka/questions/collections/Question.java,c/d/cd7904593705d2152c89662763c2cf0d3e4bbb07
 }
