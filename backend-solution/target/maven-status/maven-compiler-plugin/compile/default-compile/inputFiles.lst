@@ -1,9 +1,7 @@
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerscrud/ListarQuestionsRouter.java
-/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerservice/CrearUsuarioVotosRouter.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/collections/Answer.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerscrud/ObtenerQuestionRouter.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/usecaseservice/UseCaseAddAnswer.java
-/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/usecaseservice/UseCaseCrearUserVote.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerscrud/BorrarQuestionRouter.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/repositories/AnswerRepository.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/collections/Question.java
@@ -14,6 +12,7 @@
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/QuestionsApplication.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerservice/PlusVoteRouter.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/mappers/QuestionMapper.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/model/MensajeDTO.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerscrud/ActualizarQuestionRouter.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/repositories/QuestionRepository.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/model/UserVoteDTO.java
@@ -25,6 +24,7 @@
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/routerservice/AddAnswerRouter.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/config/WebFluxConfig.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseBorrarQuestion.java
+/Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/mappers/MensajeMapper.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/mappers/UserMapper.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseActualizarQuestion.java
 /Users/daniel/IdeaProjects/RetoAppEmpresarialSB/backend-solution/src/main/java/co/com/sofka/questions/model/QuestionDTO.java

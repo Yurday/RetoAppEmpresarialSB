@@ -13,7 +13,7 @@ public class UserMapper {
         return updateUser->{
             var user=new UserVote();
             user.setId(id);
-            user.setHabilitado(updateUser.getHabilitado());
+            user.setUserId(updateUser.getUserId());
             user.setTipoVoto(updateUser.getTipoVoto());
             user.setAnswerId(updateUser.getAnswerId());
             return user;
@@ -24,7 +24,7 @@ public class UserMapper {
         return entity->
                 new UserVoteDTO(
                         entity.getId(),
-                        entity.getHabilitado(),
+                        entity.getUserId(),
                         entity.getTipoVoto(),
                         entity.getAnswerId()
                 );
