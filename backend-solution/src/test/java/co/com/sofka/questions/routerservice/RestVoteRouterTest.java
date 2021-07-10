@@ -5,6 +5,7 @@ import co.com.sofka.questions.model.UserVoteDTO;
 import co.com.sofka.questions.usecaseservice.UseCasePlusVote;
 import co.com.sofka.questions.usecaseservice.UseCaseRestVote;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ class RestVoteRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router restar voto de usuario a una respuesta")
     public void restVoteRouterTest(){
 
         MensajeDTO mensajeDTO = new MensajeDTO("Mensaje...", "answer...", 5);

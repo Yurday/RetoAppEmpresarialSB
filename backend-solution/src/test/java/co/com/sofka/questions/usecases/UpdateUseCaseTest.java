@@ -4,6 +4,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.repositories.QuestionRepository;
 import co.com.sofka.questions.usecasecrud.UseCaseActualizarQuestion;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -23,6 +24,7 @@ class UpdateUseCaseTest {
     private QuestionRepository questionRepository;
 
     @Test
+    @DisplayName("Test del caso de uso actualizar pregunta por su id")
     public void testActualizarPregunta() {
 
 

@@ -5,6 +5,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.repositories.QuestionRepository;
 import co.com.sofka.questions.usecasecrud.UseCaseObtenerQuestion;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,7 +16,7 @@ import reactor.core.publisher.Mono;
 @SpringBootTest
 class GetUseCaseTest {
 
-    // mockear depencias que dependen del caso de uso
+    // mockear dependencias que dependen del caso de uso
     @MockBean
     private QuestionRepository questionRepository;
 
@@ -23,6 +24,7 @@ class GetUseCaseTest {
     UseCaseObtenerQuestion useCaseObtenerQuestion;
 
     @Test
+    @DisplayName("Test del caso de uso obtener pregunta por su id")
     public void obtenerQuestionTest(){
 
         //arrange
@@ -36,7 +38,7 @@ class GetUseCaseTest {
         question.setCategory("xxx");
 
         //act
-        //simular dependecia deleteByid y deleteByquestionid que retornan un mono vacio.
+        //simular dependecia findById que retornan un Mono<QuestionDTO>.
 
         Mockito.when(questionRepository.findById("12")).thenReturn(Mono.just(question));
 

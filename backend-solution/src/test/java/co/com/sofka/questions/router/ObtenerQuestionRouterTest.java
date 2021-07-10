@@ -5,6 +5,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.routerscrud.ObtenerQuestionRouter;
 import co.com.sofka.questions.usecasecrud.UseCaseObtenerQuestion;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ class ObtenerQuestionRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router obtener pregunta por su id")
     public void obtenerQuestionTest() {
         //arrange
         QuestionDTO questionDTO = new QuestionDTO("12", "1", "que fue primero", "open", "xxx");

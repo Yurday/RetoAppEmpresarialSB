@@ -7,6 +7,7 @@ import co.com.sofka.questions.model.AnswerDTO;
 import co.com.sofka.questions.repositories.AnswerRepository;
 import co.com.sofka.questions.usecaseservice.UseCaseAddAnswer;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -25,6 +26,7 @@ class AddAnswerUseCaseTest {
     private AnswerRepository answerRepository;
 
     @Test
+    @DisplayName("Test del caso de uso crear respuesta a una pregunta por id")
     public void testCrearRespuesta(){
 
         AnswerDTO answerDTO=new AnswerDTO("1","2","la gallina");

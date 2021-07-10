@@ -6,6 +6,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.routerscrud.ActualizarQuestionRouter;
 import co.com.sofka.questions.usecasecrud.UseCaseActualizarQuestion;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,7 @@ class ActualizarQuestionRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router de modificación de preguntas")
     public void actualizarQuestionTest(){
 
         QuestionDTO questionDTO = new QuestionDTO("12","1","que fue primero","open","xxx");

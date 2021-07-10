@@ -7,6 +7,7 @@ import co.com.sofka.questions.repositories.QuestionRepository;
 import co.com.sofka.questions.routerscrud.ListarQuestionsRouter;
 import co.com.sofka.questions.usecasecrud.UseCaseListarQuestions;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ class ListarQuestionsRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router de listar preguntas")
     public void testListarPreguntas() {
         Question question1 = new Question();
         question1.setId("1");

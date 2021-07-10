@@ -5,6 +5,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.repositories.QuestionRepository;
 import co.com.sofka.questions.usecasecrud.UseCaseListarQuestions;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -24,6 +25,7 @@ class ListUseCaseTest {
     UseCaseListarQuestions useCaseListarQuestions;
 
     @Test
+    @DisplayName("Test del caso de uso listar preguntas")
     public void listarAllQuestionTest() {
 
         //arrange
@@ -37,7 +39,7 @@ class ListUseCaseTest {
         question.setCategory("xxx");
 
         //act
-        //simular dependecia deleteByid y deleteByquestionid que retornan un flux de question
+        //Simular dependencia findAll que retorna Flux<QuestionDTO>
 
         Mockito.when(questionRepository.findAll()).thenReturn(Flux.just(question));
 

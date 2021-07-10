@@ -4,6 +4,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.routerscrud.CrearQuestionRouter;
 import co.com.sofka.questions.usecasecrud.UseCaseCrearQuestion;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,7 @@ class CrearQuestionRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router de creación de preguntas")
     public void crearQuestionTest(){
 
         QuestionDTO questionDTO = new QuestionDTO("12","1","que fue primero","open","xxx");

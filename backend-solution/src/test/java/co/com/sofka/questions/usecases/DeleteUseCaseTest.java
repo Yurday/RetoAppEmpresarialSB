@@ -6,6 +6,7 @@ import co.com.sofka.questions.repositories.AnswerRepository;
 import co.com.sofka.questions.repositories.QuestionRepository;
 import co.com.sofka.questions.usecasecrud.UseCaseBorrarQuestion;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,6 +27,7 @@ class DeleteUseCaseTest {
     UseCaseBorrarQuestion useCaseBorrarQuestion;
 
     @Test
+    @DisplayName("Test del caso de uso eliminar pregunta por su id con sus respectivas respuestas")
     public void eliminarQuestionTest(){
 
         //arrange

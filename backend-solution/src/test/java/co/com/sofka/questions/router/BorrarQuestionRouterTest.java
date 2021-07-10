@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import co.com.sofka.questions.routerscrud.BorrarQuestionRouter;
 import co.com.sofka.questions.usecasecrud.UseCaseBorrarQuestion;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,7 @@ class BorrarQuestionRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router de borrar preguntas por su id")
     public void borraQuestionTest(){
 
         when(useCaseBorrarQuestion.borrarPorId("12")).thenReturn(Mono.empty());

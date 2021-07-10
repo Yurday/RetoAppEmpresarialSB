@@ -2,6 +2,7 @@ package co.com.sofka.questions.routerservice;
 
 import co.com.sofka.questions.usecaseservice.UseCaseEliminarVoto;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,7 @@ class EliminarVotoRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router eliminar voto por id de respuesta y id de usuario")
     public void deleteVoteRouterTest(){
 
         when(useCaseEliminarVoto.borrarVoto("123","345")).thenReturn(Mono.empty());

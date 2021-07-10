@@ -5,6 +5,7 @@ import co.com.sofka.questions.model.QuestionDTO;
 import co.com.sofka.questions.usecaseservice.UseCaseEliminarVoto;
 import co.com.sofka.questions.usecaseservice.UseCaseSugerirPreguntas;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,7 @@ class SugerirPreguntasRouterTest {
     private WebTestClient webTestClient;
 
     @Test
+    @DisplayName("Test del router sugerir preguntas al usuario por coincidencias de palabras")
     public void sugerirPregRouterTest(){
 
         QuestionDTO questionDTO1 = new QuestionDTO("12","1","Qué fue primero","open","xxx");

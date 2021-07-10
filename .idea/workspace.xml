@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/050202f596c2530a77823ac50eb1a06d246de374" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/469650c0226fd796df5c73756b631371607628f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e57dbabf163573ddfaa2c04bf995b9397c62f22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a84c8d115c80343010b2c23cbe8c398090c437da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba69bc6c681b2f7bb8fbe431b95c5b377c9fbcc5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5339602ff0d5f302ea4922781be8ed93bde4b745" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aabe8ed58015e7ac068f30c7abc3a0023085a6d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c48e416e9e4e5ef315af1f6cd14968381c61da26" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ux248qAf53xRQM3sGMHhDUoW7l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,50 +67,15 @@
       <recent name="co.com.sofka.questions.routerservice" />
       <recent name="co.com.sofka.questions.router" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.sofka.questions.usecaseservice" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UseCaseSugerirPreguntasTest">
-    <configuration name="AddAnswerUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in questions">
+    <configuration name="All in questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.usecaseservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecaseservice" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecaseservice.AddAnswerUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SugerirPreguntasRouterTest.sugerirPregRouterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.routerservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.routerservice" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.routerservice.SugerirPreguntasRouterTest" />
-      <option name="METHOD_NAME" value="sugerirPregRouterTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseCaseEliminarVotoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.usecaseservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecaseservice" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecaseservice.UseCaseEliminarVotoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseCaseSugerirPreguntasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UseCasePlusVoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +105,49 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecaseservice" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecaseservice.UseCaseSugerirPreguntasTest" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecaseservice.UseCasePlusVoteTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseCasePlusVoteTest.sumarVotoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.usecaseservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecaseservice" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecaseservice.UseCasePlusVoteTest" />
+      <option name="METHOD_NAME" value="sumarVotoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.com.sofka.questions.usecaseservice in questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.usecaseservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecaseservice" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UseCaseSugerirPreguntasTest" />
+        <item itemvalue="JUnit.All in questions" />
+        <item itemvalue="JUnit.UseCasePlusVoteTest.sumarVotoTest" />
+        <item itemvalue="JUnit.UseCasePlusVoteTest" />
+        <item itemvalue="JUnit.co.com.sofka.questions.usecaseservice in questions" />
         <item itemvalue="JUnit.UseCaseEliminarVotoTest.eliminarVotoTest" />
-        <item itemvalue="JUnit.UseCaseEliminarVotoTest" />
-        <item itemvalue="JUnit.AddAnswerUseCaseTest" />
-        <item itemvalue="JUnit.SugerirPreguntasRouterTest.sugerirPregRouterTest" />
       </list>
     </recent_temporary>
   </component>

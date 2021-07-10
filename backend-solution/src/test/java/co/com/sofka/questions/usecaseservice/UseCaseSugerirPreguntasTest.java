@@ -23,7 +23,7 @@ class UseCaseSugerirPreguntasTest {
     private UseCaseSugerirPreguntas useCaseSugerirPreguntas;
 
     @Test
-    @DisplayName("Sugerir preguntas por coincidencia")
+    @DisplayName("Test de sugerir preguntas por coincidencia de palabras")
     public void sugerirPreguntasTest(){
 
         var questionDTO = new QuestionDTO("1","12345", "Que es SpringBoot?","OPEN","Programming");
