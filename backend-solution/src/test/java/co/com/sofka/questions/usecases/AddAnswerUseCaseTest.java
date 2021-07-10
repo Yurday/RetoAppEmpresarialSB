@@ -39,9 +39,9 @@ class AddAnswerUseCaseTest {
 
         var respuesta=useCaseAddAnswer.createAnswer(answerDTO);
 
-        Assertions.assertEquals(respuesta.block().getQuestionId(),answerDTO.getUserId());
-        /*Assertions.assertEquals(respuesta.block().getUserId(),"2");
-        Assertions.assertEquals(respuesta.block().getAnswer(),"la gallina");*/
+        Assertions.assertEquals(respuesta.block().getQuestionId(),answerDTO.getQuestionId());
+        Assertions.assertEquals(respuesta.block().getUserId(),"2");
+        Assertions.assertEquals(respuesta.block().getAnswer(),"la gallina");
 
     }
 

@@ -3,8 +3,6 @@
 \backend-solution/src/main/java/co/com/sofka/questions/routerscrud/ObtenerQuestionRouter.java,c\4\c48e416e9e4e5ef315af1f6cd14968381c61da26
 H
 backend-solution/pom.xml,7/d/7df4c8d8b2b75a89e32ebf611f7b735bec5377e5
-Ñ
-Tbackend-solution/src/test/java/co/com/sofka/questions/QuestionsApplicationTests.java,8/2/824b8f59eb4637f1911d51257232695e06b4e96c
 ç
 ]backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseObtenerQuestion.java,8/8/8817f35ca7008ae1d5401c53b4dc25445103d320
 è

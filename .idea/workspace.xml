@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/050202f596c2530a77823ac50eb1a06d246de374" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/469650c0226fd796df5c73756b631371607628f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e57dbabf163573ddfaa2c04bf995b9397c62f22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a84c8d115c80343010b2c23cbe8c398090c437da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba69bc6c681b2f7bb8fbe431b95c5b377c9fbcc5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -57,7 +52,7 @@
       <recent name="co.com.sofka.questions.router" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuestionsApplication">
+  <component name="RunManager" selected="JUnit.AddAnswerUseCaseTest.testCrearRespuesta">
     <configuration name="QuestionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.QuestionsApplication" />
       <module name="questions" />
@@ -80,6 +75,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddAnswerUseCaseTest.testCrearRespuesta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecases.AddAnswerUseCaseTest" />
+      <option name="METHOD_NAME" value="testCrearRespuesta" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,27 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.com.sofka.questions.usecases in questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.usecases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddAnswerUseCaseTest.testCrearRespuesta" />
+        <item itemvalue="JUnit.All in questions" />
         <item itemvalue="Application.QuestionsApplication" />
         <item itemvalue="Application.QuestionsApplicationTests" />
         <item itemvalue="JUnit.PlusVoteRouterTest.plusVoteRouterTest" />
-        <item itemvalue="JUnit.co.com.sofka.questions.usecases in questions" />
-        <item itemvalue="JUnit.All in questions" />
       </list>
     </recent_temporary>
   </component>
