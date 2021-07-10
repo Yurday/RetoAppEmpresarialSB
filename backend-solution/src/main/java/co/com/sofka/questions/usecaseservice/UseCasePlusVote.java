@@ -70,13 +70,3 @@ public class UseCasePlusVote {
 
 
     }
-
-
-
-
-
-
-
-
-
-
