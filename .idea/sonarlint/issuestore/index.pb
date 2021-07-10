@@ -56,3 +56,13 @@ Lbackend-solution/src/main/java/co/com/sofka/questions/model/UserVoteDTO.java,9
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Œ
+\backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseBorrarQuestion.java,a/a/aabe8ed58015e7ac068f30c7abc3a0023085a6d5
+‹
+[backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseCrearQuestion.java,5/3/5339602ff0d5f302ea4922781be8ed93bde4b745
+…
+Ubackend-solution/src/test/java/co/com/sofka/questions/usecases/CreateUseCaseTest.java,6/5/65dbee302d6f49b5fc02ae14752e76cd2355e6e2
+ˆ
+Xbackend-solution/src/test/java/co/com/sofka/questions/usecases/AddAnswerUseCaseTest.java,1/4/14b56c55fa4ce22f7a3b0a055e95ae04279197e2
+}
+Mbackend-solution/src/main/java/co/com/sofka/questions/mappers/UserMapper.java,1/2/12f9a137f465073c160b1baf771c925354584ec8
