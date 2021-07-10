@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class UserVote {
     @Id
     private String id;
-    private Boolean habilitado;
+    private String userId;
     private Boolean tipoVoto;
     private String answerId;// respuesta votada
 
@@ -19,12 +19,12 @@ public class UserVote {
         this.id = id;
     }
 
-    public Boolean getHabilitado() {
-        return habilitado;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setHabilitado(Boolean habilitado) {
-        this.habilitado = habilitado;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public Boolean getTipoVoto() {

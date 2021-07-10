@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3044b05e-0d73-418d-be62-36a36471ec9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af0b8585064ec58bac24c52eeba63b9b25cf6865" beforeDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/050202f596c2530a77823ac50eb1a06d246de374" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/469650c0226fd796df5c73756b631371607628f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e57dbabf163573ddfaa2c04bf995b9397c62f22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a84c8d115c80343010b2c23cbe8c398090c437da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba69bc6c681b2f7bb8fbe431b95c5b377c9fbcc5" beforeDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.com.sofka.questions.routerservice" />
       <recent name="co.com.sofka.questions.router" />
     </key>
   </component>
@@ -66,22 +73,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActualizarQuestionRouterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuestionsApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.QuestionsApplicationTests" />
       <module name="questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.router.*" />
+          <option name="PATTERN" value="co.com.sofka.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.router" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.router.ActualizarQuestionRouterTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAnswerUseCaseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusVoteRouterTest.plusVoteRouterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.questions.routerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.questions.routerservice" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.routerservice.PlusVoteRouterTest" />
+      <option name="METHOD_NAME" value="plusVoteRouterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.com.sofka.questions.usecases in questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <extension name="coverage">
         <pattern>
@@ -90,38 +119,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="co.com.sofka.questions.usecases" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.usecases.AddAnswerUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddAnswerUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.router.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.router" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.router.AddAnswerUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BorrarQuestionRouterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.sofka.questions.router.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.sofka.questions.router" />
-      <option name="MAIN_CLASS_NAME" value="co.com.sofka.questions.router.BorrarQuestionRouterTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,10 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.QuestionsApplication" />
-        <item itemvalue="JUnit.BorrarQuestionRouterTest" />
-        <item itemvalue="JUnit.AddAnswerUseCaseTest (1)" />
-        <item itemvalue="JUnit.ActualizarQuestionRouterTest" />
-        <item itemvalue="JUnit.AddAnswerUseCaseTest" />
+        <item itemvalue="Application.QuestionsApplicationTests" />
+        <item itemvalue="JUnit.PlusVoteRouterTest.plusVoteRouterTest" />
+        <item itemvalue="JUnit.co.com.sofka.questions.usecases in questions" />
+        <item itemvalue="JUnit.All in questions" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +156,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mongodb.MongoSocketWriteException" package="com.mongodb" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RetoAppEmpresarialSB$BorrarQuestionRouterTest.ic" NAME="BorrarQuestionRouterTest Coverage Results" MODIFIED="1625728256491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

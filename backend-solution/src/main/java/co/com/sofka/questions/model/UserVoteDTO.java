@@ -3,7 +3,7 @@ package co.com.sofka.questions.model;
 public class UserVoteDTO {
 
     private String id;
-    private Boolean habilitado;
+    private String userId;
     private Boolean tipoVoto;
     private String answerId;
 
@@ -12,9 +12,9 @@ public class UserVoteDTO {
 
     }
 
-    public UserVoteDTO(String id, Boolean habilitado, Boolean tipoVoto, String answerId) {
+    public UserVoteDTO(String id, String userId, Boolean tipoVoto, String answerId) {
         this.id = id;
-        this.habilitado = habilitado;
+        this.userId = userId;
         this.tipoVoto = tipoVoto;
         this.answerId = answerId;
     }
@@ -27,12 +27,12 @@ public class UserVoteDTO {
         this.id = id;
     }
 
-    public Boolean getHabilitado() {
-        return habilitado;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setHabilitado(Boolean habilitado) {
-        this.habilitado = habilitado;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public Boolean getTipoVoto() {
