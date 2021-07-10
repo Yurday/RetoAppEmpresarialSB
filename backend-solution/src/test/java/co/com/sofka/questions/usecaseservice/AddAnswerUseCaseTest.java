@@ -1,4 +1,4 @@
-package co.com.sofka.questions.usecases;
+package co.com.sofka.questions.usecaseservice;
 
 import static org.junit.jupiter.api.Assertions.*;
 

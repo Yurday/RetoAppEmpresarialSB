@@ -44,7 +44,7 @@ public class UseCaseRestVote {
                         var userVote = new UserVoteDTO();
                         userVote.setAnswerId(answerId);
                         userVote.setUserId(userId);
-                        userVote.setTipoVoto(true);
+                        userVote.setTipoVoto(false);
 
                         return userRepository
                                 .save(userMapper.fromUserVoteDtoToUserVote(null).apply(userVote))

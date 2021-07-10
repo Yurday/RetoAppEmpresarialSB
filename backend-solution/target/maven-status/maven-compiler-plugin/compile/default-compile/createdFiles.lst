@@ -1,1 +1,3 @@
+co/com/sofka/questions/routerservice/RestVoteRouter.class
 co/com/sofka/questions/usecaseservice/UseCasePlusVote.class
+co/com/sofka/questions/usecaseservice/UseCaseRestVote.class

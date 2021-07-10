@@ -15,10 +15,6 @@ Xbackend-solution/src/main/java/co/com/sofka/questions/repositories/AnswerReposi
 Ubackend-solution/src/test/java/co/com/sofka/questions/usecases/UpdateUseCaseTest.java,8/b/8b4f64abc9c49780cee704fd2191e111c59273e9
 ‚
 Rbackend-solution/src/test/java/co/com/sofka/questions/usecases/GetUseCaseTest.java,e/0/e08be59564bdc83b813e7919b570470a32631cc8
-…
-Ubackend-solution/src/test/java/co/com/sofka/questions/usecases/DeleteUseCaseTest.java,8/7/87fa636409cf5cc366f0a860257615fa3bc4312d
-
-Obackend-solution/src/main/java/co/com/sofka/questions/collections/Question.java,c/d/cd7904593705d2152c89662763c2cf0d3e4bbb07
 Š
 Zbackend-solution/src/main/java/co/com/sofka/questions/usecaseservice/UseCaseAddAnswer.java,7/4/7481608e513d4427eb2335bd342a9aeb77a64db4
 ƒ
@@ -34,3 +30,11 @@ Qbackend-solution/src/main/java/co/com/sofka/questions/mappers/QuestionMapper.ja
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Œ
+\backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseBorrarQuestion.java,a/a/aabe8ed58015e7ac068f30c7abc3a0023085a6d5
+‹
+[backend-solution/src/main/java/co/com/sofka/questions/usecasecrud/UseCaseCrearQuestion.java,5/3/5339602ff0d5f302ea4922781be8ed93bde4b745
+ˆ
+Xbackend-solution/src/test/java/co/com/sofka/questions/usecases/AddAnswerUseCaseTest.java,1/4/14b56c55fa4ce22f7a3b0a055e95ae04279197e2
+}
+Mbackend-solution/src/main/java/co/com/sofka/questions/mappers/UserMapper.java,1/2/12f9a137f465073c160b1baf771c925354584ec8

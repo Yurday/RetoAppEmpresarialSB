@@ -1,4 +1,4 @@
-package co.com.sofka.questions.router;
+package co.com.sofka.questions.routerservice;
 
 import co.com.sofka.questions.collections.Answer;
 import co.com.sofka.questions.model.AnswerDTO;
